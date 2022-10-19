@@ -1,0 +1,42 @@
+Ejercicio: agenda digital
+En esta actividad se va a realizar una agenda digital haciendo uso de la programación orientada a 
+objetos con conexión a una base de datos.
+
+Para ello se creará código orientado a objetos (bien una clase o una colección de clases) que 
+permitirá posteriormente realizar programas sobre el mismo. Cada clase deberá estar contenida en un 
+archivo independiente. En todo caso deberá haber al menos una para la agenda. En ésta, se incluirán 
+métodos que permitirán hacer lo siguiente:
+
+1 - Añadir datos de un contacto: parámetros nombre, apellidos, correo electrónico, teléfono y dirección.
+
+2 - Añadir datos a través de un archivo de texto: parámetro nombre del archivo de texto. Dentro del 
+archivo indicado los parámetros se presentan separados por comas (ver ejemplo).
+
+3 - Buscar contacto.: esta operación se podrá hacer por varios criterios (por tanto se pueden crear 
+varios métodos). Por ejemplo, proporcionando parte del nombre / apellidos, teléfono, dirección o correo
+
+4 - Actualizar campos en un contacto.
+
+5 - Eliminar contactos.
+
+6 - Gestionar citas de calendario (añadir, borrar, modificar). Las citas tendrán una descripción, 
+se programarán en un lugar y en una fecha y hora (a especificar), y podrán implicar a uno o varios 
+contactos (opcionalmente) si así se indica a través de parámetros.
+
+7 - Debe haber métodos que localicen citas ya programadas proporcionando una fecha, buscando el lugar
+ o por contacto.
+
+El nombre cada archivo entregado deberá contener el nombre de la clase seguido del texto _<iniciales>.py 
+donde las iniciales son las correspondientes al alumno que entrega la práctica (al igual que en 
+trabajos anteriores).
+
+Importante: no se deben subir archivos comprimidos.
+
+Importante: los apartados que se van a evaluar son:
+
+Orientación a objetos (30%)
+Acceso a bases de datos (25%)
+Claridad y eficiencia de la lógica de las operaciones (10%)
+Documentación y nombres de identificadores (15%)
+Cumplimiento del PEP8 (5%)
+Presentación, corrección y cumplimiento de los requisitos (15%)
